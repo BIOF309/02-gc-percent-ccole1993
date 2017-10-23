@@ -1,0 +1,6 @@
+DNA = 'ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT'
+G_content = (DNA.count("G"))
+C_content = (DNA.count("C"))
+DNA_length = len(DNA)
+GC_content = ((C_content + G_content) / DNA_length)
+print(GC_content * 100)
